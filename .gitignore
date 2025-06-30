@@ -1,2 +1,4 @@
 *.bin
 functions/model/pretrained_1/
+__pycache__/
+.venv/
