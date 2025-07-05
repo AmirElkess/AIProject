@@ -25,7 +25,7 @@ Packages required by the server:
 Download the model from [Drive](https://drive.google.com/file/d/14ISB2cFMf_PbLKmWrXTdBBJs0BMYQYqn/view?usp=sharing) and extract its contents in `./functions/model/pretrained_1/` folder
 
 #### 3. Running the server
-Then `uvicorn server:app --reload` to run the server then head to [localhost:8000](localhost:8000)
+Then `uvicorn server:app --reload` to run the server then head to [localhost:8000](localhost:8000). Alternatively just run `server.py`.
 
 ## Model
 The model used for emotion classification is a ViT (Vision Transformer) trained on FER-2013 dataset. The accuracy of the model is 85.11%.
