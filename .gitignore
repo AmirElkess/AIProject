@@ -2,3 +2,5 @@
 functions/model/pretrained_1/
 __pycache__/
 .venv/
+wandb/
+curated/
