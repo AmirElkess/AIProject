@@ -108,6 +108,7 @@ args = TrainingArguments(
     metric_for_best_model=metric_name,
     logging_dir="logs",
     remove_unused_columns=False,
+    report_to=None
 )
 
 metric = evaluate.load("accuracy")
